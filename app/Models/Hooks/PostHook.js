@@ -9,6 +9,7 @@ PostHook.method = async modelInstance => {}
 PostHook.sendWs = async post => {
   const topic = Ws.getChannel('posts').topic('posts')
   if (topic) {
-    topic.broacast('new', post)
+    await post.loadMany(['user', 'comments'])
+    topic.broadcast('new', post)
   }
 }
