@@ -44,7 +44,7 @@ const Template = {
             <div class="comment">
               <img src="images/avatar.png" alt="Avatar">
               <div class="info">
-                <span class="user">Claudio Orlandi</span>
+                <span class="user">Fatima Fessel</span>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 labore et
                 dolore magna aliqua.
@@ -63,7 +63,7 @@ const Template = {
     </div>
     <div class="comment-area">
       <div class="group">
-        <img class="avatar" src="images/avatar.png" alt="Diego Fernandes">
+        <img class="avatar" src="images/avatar.png" alt="Monise Martins">
         <textarea data-post-id="1" placeholder="Comment this post"></textarea>
       </div>
       <button data-post-id="1" class="uibutton large confirm comment-post" type="submit">Comment</button>
